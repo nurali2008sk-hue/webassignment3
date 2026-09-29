@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- Task 3 + Task 4: Bootstrap Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#home">My Portfolio</a>
+
+        <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Task 0: Responsive Typography -->
+<section id="home" class="container hero-section">
+    <h1>Responsive Web Design</h1>
+    <h2>Task 0: Responsive Typography</h2>
+
+    <p>
+        This webpage demonstrates responsive typography.
+        The font sizes change depending on the screen size.
+    </p>
+
+    <p>
+        On mobile devices the text is smaller, on tablets it is
+        medium-sized, and on desktop screens it becomes larger.
+    </p>
+</section>
+
+<!-- Task 1: Responsive Layout -->
+<section class="layout-section">
+    <h2>Task 1: Responsive Layout</h2>
+
+    <div class="boxes">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+    </div>
+</section>
+
+<!-- Task 2: Bootstrap Responsive Columns -->
+<section class="bootstrap-section">
+    <h2>Task 2: Bootstrap Responsive Columns</h2>
+
+    <div class="container">
+        <div class="row">
+            <div class="row">
+    <div class="col-12 col-md-6 col-lg-4">
+        <div class="bootstrap-box">Column 1</div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4">
+        <div class="bootstrap-box">Column 2</div>
+    </div>
+    <!-- Для 3-й колонки ставим col-md-12 -->
+    <div class="col-12 col-md-12 col-lg-4">
+        <div class="bootstrap-box">Column 3</div>
+    </div>
+</div>
+        </div>
+    </div>
+</section>
+
+<!-- Task 4: Responsive Portfolio Page -->
+<main class="portfolio-section" id="projects">
+    <div class="container">
+        <div class="row g-4">
+
+            <!-- Left side: Projects -->
+            <div class="col-12 col-lg-8">
+                <h2>My Projects</h2>
+
+                <div class="row g-4">
+                    <div class="col-12 col-md-6">
+                        <div class="project-card">
+                            <img src="images/thefirst.jpg" alt="Project 1" class="project-img">
+                            <div class="project-body">
+                                <h3>Project 1</h3>
+                                <p>A sleeping Teto baby with baguette.</p>
+                                <a href="#" class="btn btn-dark">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <div class="project-card">
+                            <img src="images/thesecond.jpg" alt="Project 2" class="project-img">
+                            <div class="project-body">
+                                <h3>Project 2</h3>
+                                <p>Hello(Pickup,Hint,lowkey flirt).</p>
+                                <a href="#" class="btn btn-dark">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <div class="project-card">
+                            <img src="images/third.jpg" alt="Project 3" class="project-img">
+                            <div class="project-body">
+                                <h3>Project 3</h3>
+                                <p>A really FAT JUDGMENT.</p>
+                                <a href="#" class="btn btn-dark">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <div class="project-card">
+                            <img src="images/four.jpg" alt="Project 4" class="project-img">
+                            <div class="project-body">
+                                <h3>Project 4</h3>
+                                <p>SATA ANDAGY.</p>
+                                <a href="#" class="btn btn-dark">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right side: Personal information -->
+            <aside class="col-12 col-lg-4" id="about">
+                <div class="sidebar">
+                    <h2>About Me</h2>
+                    <p>
+                        I am Serikkali Nurali and i am doing something.
+                    </p>
+
+                    <h3 id="contact">Contact</h3>
+                    <p>Email: penitentone@gmail.com</p>
+                    <p>Phone: +7 708 475 0323</p>
+                </div>
+            </aside>
+
+        </div>
+    </div>
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+    <p>© 2026 My Portfolio. All rights reserved.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
