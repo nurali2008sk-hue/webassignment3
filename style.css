@@ -1,6 +1,6 @@
-/* ==========================================
+/* 
    1. Base Styles & Reset
-   ========================================== */
+    */
 * {
     box-sizing: border-box;
 }
@@ -17,9 +17,9 @@ body {
     max-width: 1000px;
 }
 
-/* ==========================================
-   2. Navbar Styling (Task 3 + Task 4)
-   ========================================== */
+/* 
+   2. Navbar Styling 
+   */
 .navbar {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
@@ -38,9 +38,9 @@ body {
     color: #4cc9f0 !important;
 }
 
-/* ==========================================
+/* 
    3. Task 0: Responsive Typography
-   ========================================== */
+    */
 .hero-section {
     margin-top: 40px;
     padding: 30px;
@@ -69,7 +69,7 @@ p {
     color: #4a4e69;
 }
 
-/* Typography Media Queries (Bootstrap standard breakpoints) */
+/* Typography Media Queries  */
 /* Mobile: < 768px */
 @media (max-width: 767.98px) {
     h1 {
@@ -147,14 +147,14 @@ p {
     box-shadow: 0 8px 20px rgba(67, 97, 238, 0.35);
 }
 
-/* Task 1 Mobile (< 768px): Stacked vertically */
+/* Task 1 Mobile  */
 @media (max-width: 767.98px) {
     .boxes {
         flex-direction: column;
     }
 }
 
-/* Task 1 Tablet (768px - 991.98px): Two boxes in a row, third box below */
+/* Task 1 Tablet */
 @media (min-width: 768px) and (max-width: 991.98px) {
     .boxes {
         flex-wrap: wrap;
@@ -165,9 +165,9 @@ p {
     }
 }
 
-/* ==========================================
-   5. Task 2: Bootstrap Responsive Columns
-   ========================================== */
+/* 
+   5. Task 2: 
+    */
 .bootstrap-section {
     margin: 40px auto;
 }
@@ -198,9 +198,9 @@ p {
     transform: translateY(-3px);
 }
 
-/* ==========================================
+/* 
    6. Task 4: Responsive Portfolio Page
-   ========================================== */
+    */
 .portfolio-section {
     padding: 40px 0;
 }
